@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap'); /*-header font-*/
+
+body {
+    background-color: #fbfcf4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bio { /*aka menu*/
+    display: block;
+    float:left;
+    width:20%;
+    text-align:left;
+    padding: 0 10px;
+}
+
+.bio a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+  }
+
+.main {
+    float:left;
+    width:70%;
+    padding: 10px;
+}
+
+.button {
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Asap', sans-serif;
+    font-size: 16;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+
+.glow-button:hover {
+    color: rgb(12, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+   }
+
+h2 {
+    font-family: 'Asap', sans-serif;
+    display: block;
+    margin: 0;
+}
+
+h4 {
+    display: block;
+    margin: 0;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .bio, .main{
+      width:100%;
+    }
+}
